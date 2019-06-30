@@ -1,0 +1,12 @@
+runtime: custom
+env: flex
+
+env_variables:
+  MB_JETTY_PORT: 8080
+  MB_DB_TYPE: mysql
+  MB_DB_DBNAME: Huddle
+  MB_DB_PORT: 3306
+  MB_DB_USER: metabase-huddle
+  MB_DB_PASS: MetabaseHuddle123$%
+  MB_DB_HOST: 127.0.0.1
+  METABASE_SQL_INSTANCE: huddle-quick-solutions:us-central1:huddle-events-processor

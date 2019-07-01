@@ -1,6 +1,9 @@
 runtime: custom
 env: flex
 
+manual_scaling:
+  instances: 1
+
 env_variables:
   MB_JETTY_PORT: 8080
   MB_DB_TYPE: mysql
